@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04EAE78B1CD88ED400AE9EFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04EAE78A1CD88ED400AE9EFA /* Foundation.framework */; };
+		04EAE78D1CD88ED400AE9EFA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04EAE78C1CD88ED400AE9EFA /* CoreGraphics.framework */; };
+		04EAE78F1CD88ED400AE9EFA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04EAE78E1CD88ED400AE9EFA /* UIKit.framework */; };
+		04EAE7951CD88ED400AE9EFA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04EAE7931CD88ED400AE9EFA /* InfoPlist.strings */; };
+		04EAE7971CD88ED400AE9EFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EAE7961CD88ED400AE9EFA /* main.m */; };
+		04EAE79B1CD88ED400AE9EFA /* DYFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EAE79A1CD88ED400AE9EFA /* DYFAppDelegate.m */; };
+		04EAE79E1CD88ED400AE9EFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04EAE79C1CD88ED400AE9EFA /* Main.storyboard */; };
+		04EAE7A11CD88ED400AE9EFA /* DYFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EAE7A01CD88ED400AE9EFA /* DYFViewController.m */; };
+		04EAE7A31CD88ED400AE9EFA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04EAE7A21CD88ED400AE9EFA /* Images.xcassets */; };
+		04EAE7AA1CD88ED400AE9EFA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04EAE7A91CD88ED400AE9EFA /* XCTest.framework */; };
+		04EAE7AB1CD88ED400AE9EFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04EAE78A1CD88ED400AE9EFA /* Foundation.framework */; };
+		04EAE7AC1CD88ED400AE9EFA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04EAE78E1CD88ED400AE9EFA /* UIKit.framework */; };
+		04EAE7B41CD88ED400AE9EFA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04EAE7B21CD88ED400AE9EFA /* InfoPlist.strings */; };
+		04EAE7B61CD88ED400AE9EFA /* momoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EAE7B51CD88ED400AE9EFA /* momoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04EAE7AD1CD88ED400AE9EFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04EAE77F1CD88ED400AE9EFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04EAE7861CD88ED400AE9EFA;
+			remoteInfo = momo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04EAE7871CD88ED400AE9EFA /* momo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = momo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04EAE78A1CD88ED400AE9EFA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		04EAE78C1CD88ED400AE9EFA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		04EAE78E1CD88ED400AE9EFA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		04EAE7921CD88ED400AE9EFA /* momo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "momo-Info.plist"; sourceTree = "<group>"; };
+		04EAE7941CD88ED400AE9EFA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04EAE7961CD88ED400AE9EFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04EAE7981CD88ED400AE9EFA /* momo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "momo-Prefix.pch"; sourceTree = "<group>"; };
+		04EAE7991CD88ED400AE9EFA /* DYFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYFAppDelegate.h; sourceTree = "<group>"; };
+		04EAE79A1CD88ED400AE9EFA /* DYFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYFAppDelegate.m; sourceTree = "<group>"; };
+		04EAE79D1CD88ED400AE9EFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04EAE79F1CD88ED400AE9EFA /* DYFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYFViewController.h; sourceTree = "<group>"; };
+		04EAE7A01CD88ED400AE9EFA /* DYFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYFViewController.m; sourceTree = "<group>"; };
+		04EAE7A21CD88ED400AE9EFA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		04EAE7A81CD88ED400AE9EFA /* momoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = momoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04EAE7A91CD88ED400AE9EFA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		04EAE7B11CD88ED400AE9EFA /* momoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "momoTests-Info.plist"; sourceTree = "<group>"; };
+		04EAE7B31CD88ED400AE9EFA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04EAE7B51CD88ED400AE9EFA /* momoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = momoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04EAE7841CD88ED400AE9EFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EAE78D1CD88ED400AE9EFA /* CoreGraphics.framework in Frameworks */,
+				04EAE78F1CD88ED400AE9EFA /* UIKit.framework in Frameworks */,
+				04EAE78B1CD88ED400AE9EFA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EAE7A51CD88ED400AE9EFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EAE7AA1CD88ED400AE9EFA /* XCTest.framework in Frameworks */,
+				04EAE7AC1CD88ED400AE9EFA /* UIKit.framework in Frameworks */,
+				04EAE7AB1CD88ED400AE9EFA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04EAE77E1CD88ED400AE9EFA = {
+			isa = PBXGroup;
+			children = (
+				04EAE7901CD88ED400AE9EFA /* momo */,
+				04EAE7AF1CD88ED400AE9EFA /* momoTests */,
+				04EAE7891CD88ED400AE9EFA /* Frameworks */,
+				04EAE7881CD88ED400AE9EFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04EAE7881CD88ED400AE9EFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04EAE7871CD88ED400AE9EFA /* momo.app */,
+				04EAE7A81CD88ED400AE9EFA /* momoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04EAE7891CD88ED400AE9EFA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04EAE78A1CD88ED400AE9EFA /* Foundation.framework */,
+				04EAE78C1CD88ED400AE9EFA /* CoreGraphics.framework */,
+				04EAE78E1CD88ED400AE9EFA /* UIKit.framework */,
+				04EAE7A91CD88ED400AE9EFA /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		04EAE7901CD88ED400AE9EFA /* momo */ = {
+			isa = PBXGroup;
+			children = (
+				04EAE7991CD88ED400AE9EFA /* DYFAppDelegate.h */,
+				04EAE79A1CD88ED400AE9EFA /* DYFAppDelegate.m */,
+				04EAE79C1CD88ED400AE9EFA /* Main.storyboard */,
+				04EAE79F1CD88ED400AE9EFA /* DYFViewController.h */,
+				04EAE7A01CD88ED400AE9EFA /* DYFViewController.m */,
+				04EAE7A21CD88ED400AE9EFA /* Images.xcassets */,
+				04EAE7911CD88ED400AE9EFA /* Supporting Files */,
+			);
+			path = momo;
+			sourceTree = "<group>";
+		};
+		04EAE7911CD88ED400AE9EFA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04EAE7921CD88ED400AE9EFA /* momo-Info.plist */,
+				04EAE7931CD88ED400AE9EFA /* InfoPlist.strings */,
+				04EAE7961CD88ED400AE9EFA /* main.m */,
+				04EAE7981CD88ED400AE9EFA /* momo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04EAE7AF1CD88ED400AE9EFA /* momoTests */ = {
+			isa = PBXGroup;
+			children = (
+				04EAE7B51CD88ED400AE9EFA /* momoTests.m */,
+				04EAE7B01CD88ED400AE9EFA /* Supporting Files */,
+			);
+			path = momoTests;
+			sourceTree = "<group>";
+		};
+		04EAE7B01CD88ED400AE9EFA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04EAE7B11CD88ED400AE9EFA /* momoTests-Info.plist */,
+				04EAE7B21CD88ED400AE9EFA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04EAE7861CD88ED400AE9EFA /* momo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04EAE7B91CD88ED400AE9EFA /* Build configuration list for PBXNativeTarget "momo" */;
+			buildPhases = (
+				04EAE7831CD88ED400AE9EFA /* Sources */,
+				04EAE7841CD88ED400AE9EFA /* Frameworks */,
+				04EAE7851CD88ED400AE9EFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = momo;
+			productName = momo;
+			productReference = 04EAE7871CD88ED400AE9EFA /* momo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04EAE7A71CD88ED400AE9EFA /* momoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04EAE7BC1CD88ED400AE9EFA /* Build configuration list for PBXNativeTarget "momoTests" */;
+			buildPhases = (
+				04EAE7A41CD88ED400AE9EFA /* Sources */,
+				04EAE7A51CD88ED400AE9EFA /* Frameworks */,
+				04EAE7A61CD88ED400AE9EFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04EAE7AE1CD88ED400AE9EFA /* PBXTargetDependency */,
+			);
+			name = momoTests;
+			productName = momoTests;
+			productReference = 04EAE7A81CD88ED400AE9EFA /* momoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04EAE77F1CD88ED400AE9EFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DYF;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = DYFppDelegate;
+				TargetAttributes = {
+					04EAE7A71CD88ED400AE9EFA = {
+						TestTargetID = 04EAE7861CD88ED400AE9EFA;
+					};
+				};
+			};
+			buildConfigurationList = 04EAE7821CD88ED400AE9EFA /* Build configuration list for PBXProject "momo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04EAE77E1CD88ED400AE9EFA;
+			productRefGroup = 04EAE7881CD88ED400AE9EFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04EAE7861CD88ED400AE9EFA /* momo */,
+				04EAE7A71CD88ED400AE9EFA /* momoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04EAE7851CD88ED400AE9EFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EAE7A31CD88ED400AE9EFA /* Images.xcassets in Resources */,
+				04EAE7951CD88ED400AE9EFA /* InfoPlist.strings in Resources */,
+				04EAE79E1CD88ED400AE9EFA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EAE7A61CD88ED400AE9EFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EAE7B41CD88ED400AE9EFA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04EAE7831CD88ED400AE9EFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EAE79B1CD88ED400AE9EFA /* DYFAppDelegate.m in Sources */,
+				04EAE7A11CD88ED400AE9EFA /* DYFViewController.m in Sources */,
+				04EAE7971CD88ED400AE9EFA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EAE7A41CD88ED400AE9EFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EAE7B61CD88ED400AE9EFA /* momoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04EAE7AE1CD88ED400AE9EFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04EAE7861CD88ED400AE9EFA /* momo */;
+			targetProxy = 04EAE7AD1CD88ED400AE9EFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04EAE7931CD88ED400AE9EFA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04EAE7941CD88ED400AE9EFA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		04EAE79C1CD88ED400AE9EFA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04EAE79D1CD88ED400AE9EFA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04EAE7B21CD88ED400AE9EFA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04EAE7B31CD88ED400AE9EFA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04EAE7B71CD88ED400AE9EFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04EAE7B81CD88ED400AE9EFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04EAE7BA1CD88ED400AE9EFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "momo/momo-Prefix.pch";
+				INFOPLIST_FILE = "momo/momo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		04EAE7BB1CD88ED400AE9EFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "momo/momo-Prefix.pch";
+				INFOPLIST_FILE = "momo/momo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		04EAE7BD1CD88ED400AE9EFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/momo.app/momo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "momo/momo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "momoTests/momoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		04EAE7BE1CD88ED400AE9EFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/momo.app/momo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "momo/momo-Prefix.pch";
+				INFOPLIST_FILE = "momoTests/momoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04EAE7821CD88ED400AE9EFA /* Build configuration list for PBXProject "momo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04EAE7B71CD88ED400AE9EFA /* Debug */,
+				04EAE7B81CD88ED400AE9EFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04EAE7B91CD88ED400AE9EFA /* Build configuration list for PBXNativeTarget "momo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04EAE7BA1CD88ED400AE9EFA /* Debug */,
+				04EAE7BB1CD88ED400AE9EFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04EAE7BC1CD88ED400AE9EFA /* Build configuration list for PBXNativeTarget "momoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04EAE7BD1CD88ED400AE9EFA /* Debug */,
+				04EAE7BE1CD88ED400AE9EFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04EAE77F1CD88ED400AE9EFA /* Project object */;
+}
